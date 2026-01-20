@@ -1,0 +1,41 @@
+{
+  "modsSidebar": [
+    { "type": "doc", "id": "mods/intro", "label": "Welcome" },
+    {
+      "type": "category",
+      "label": "AdvancedWallClimberAPI",
+      "collapsible": true,
+      "collapsed": true,
+      "items": [
+        {
+          "type": "doc",
+          "id": "advancedwallclimberapi/intro",
+          "label": "Introduction"
+        },
+        "advancedwallclimberapi/installation",
+        "advancedwallclimberapi/usage",
+        "advancedwallclimberapi/api-reference"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "FancyFrames",
+      "collapsible": true,
+      "collapsed": true,
+      "items": [
+        {
+          "type": "doc",
+          "id": "fancyframes/intro",
+          "label": "Introduction"
+        },
+        "fancyframes/installation",
+        "fancyframes/usage",
+        {
+          "type": "doc",
+          "id": "fancyframes/recipe",
+          "label": "Recipes"
+        }
+      ]
+    }
+  ]
+}

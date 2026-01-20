@@ -1,0 +1,384 @@
+:root {
+  --ifm-color-primary: #8a00c4;
+  --ifm-color-primary-dark: #13111A;
+  --ifm-color-primary-darker: #2a0f2a;
+  --ifm-color-primary-darkest: #140812;
+  --ifm-color-primary-light: #5a2b60;
+  --ifm-color-primary-lighter: #6b3d7a;
+  --ifm-color-primary-lightest: #7f51a0;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-color-emphasis: #ffffff;
+
+  --topbar-bg: #312248;
+  --topbar-text: #ffffff;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #13111A;
+  --ifm-color-primary-dark: #312248;
+  --ifm-color-primary-darker: #8a00c4;
+  --ifm-color-primary-darkest: #7200A3;
+  --ifm-color-primary-light: #5a2b60;
+  --ifm-color-primary-lighter: #6b3d7a;
+  --ifm-color-primary-lightest: #7f51a0;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.04);
+}
+
+body {
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, .hero__subtitle, .hero__title {
+  color: var(--ifm-color-emphasis) !important;
+}
+
+a {
+  color: var(--ifm-color-primary);
+}
+
+.button--primary, .button--primary:visited {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: #ffffff;
+}
+
+.navbar, .navbar--light, .navbar--dark {
+  background-color: var(--topbar-bg) !important;
+  color: var(--topbar-text) !important;
+}
+
+.navbar .navbar__brand, .navbar .navbar__items, .navbar .navbar__title {
+  color: var(--topbar-text) !important;
+}
+
+.navbar a.navbar__link, .navbar__item .navbar__link, .navbar a {
+  color: var(--topbar-text) !important;
+}
+
+.navbar .navbar__toggle {
+  color: var(--topbar-text) !important;
+}
+
+.footer {
+  background-color: var(--topbar-bg) !important;
+  color: var(--topbar-text) !important;
+}
+
+.footer a {
+  color: var(--topbar-text) !important;
+}
+
+.navbar .dropdown__menu, .navbar .menu {
+  background-color: var(--topbar-bg) !important;
+}
+
+.theme-doc-sidebar, .theme-doc-sidebar .menu, .sidebar, .menu {
+  background-color: var(--topbar-bg) !important;
+  color: var(--topbar-text) !important;
+}
+
+.theme-doc-sidebar .menu__link,
+.theme-doc-sidebar .menu__list-item .menu__link,
+.sidebar a.menu__link,
+.menu__link {
+  color: var(--topbar-text) !important;
+}
+
+.menu__list-item--active > .menu__link,
+.menu__list-item.menu__list-item--active > .menu__link {
+  background-color: rgba(255,255,255,0.06) !important;
+  color: var(--topbar-text) !important;
+  font-weight: 700;
+}
+
+.theme-doc-prevnext-nav, .pagination-nav, .theme-doc-prev, .theme-doc-next, .docItemFooter .pagination-nav {
+  color: var(--topbar-text) !important;
+}
+
+.theme-doc-prev .pagination-nav__link, .theme-doc-next .pagination-nav__link,
+.pagination-nav a, .pagination-nav button {
+  color: var(--topbar-text) !important;
+}
+
+.breadcrumbs {
+  background-color: transparent !important;
+  color: var(--topbar-text) !important;
+  display: inline-block;
+  padding: 0;
+  border-radius: 0;
+}
+
+.breadcrumbs, .breadcrumbs a, .breadcrumbs .breadcrumb__link, .breadcrumbs span {
+  color: var(--topbar-text) !important;
+}
+
+.breadcrumbs a, .breadcrumbs .breadcrumb__link {
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover, .breadcrumbs .breadcrumb__link:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs .breadcrumb__link[aria-current="page"],
+.breadcrumbs .breadcrumb__link--active,
+.breadcrumbs .breadcrumb__item--active,
+.breadcrumbs .breadcrumb__current,
+.breadcrumbs span[aria-current="page"],
+.breadcrumbs [aria-current="page"],
+.breadcrumbs .current,
+.breadcrumbs li.current,
+.breadcrumbs .active,
+.breadcrumbs li.active,
+.breadcrumbs .breadcrumb-item--active,
+.breadcrumbs .breadcrumb__item--current,
+.breadcrumbs .breadcrumb__link[aria-current="true"] {
+  color: var(--topbar-text) !important;
+  font-weight: 700;
+}
+
+.breadcrumbs [aria-current],
+.breadcrumbs *[aria-current],
+.breadcrumbs .current,
+.breadcrumbs .active,
+.breadcrumbs li[class*="current"],
+.breadcrumbs li[class*="active"] {
+  color: var(--topbar-text) !important;
+  font-weight: 700 !important;
+}
+
+.breadcrumbs, .breadcrumbs * {
+  color: var(--topbar-text) !important;
+}
+
+.theme-doc-sidebar .menu, .menu {
+  background-color: var(--topbar-bg) !important;
+}
+
+.theme-doc, .theme-doc-root, .theme-doc .docMainContainer, .theme-doc .docItemWrapper, .theme-doc-markdown, .docs__container, .docItemContainer {
+  background-color: #13111A !important;
+  color: #ffffff !important;
+}
+
+.theme-doc .docMainWrapper,
+.theme-doc .docMainContainer,
+.theme-doc .docItemWrapper,
+.theme-doc .docs__container,
+.theme-doc .docItemContainer,
+.theme-doc-root .docMainWrapper,
+.docs .docMainWrapper,
+.docMainWrapper,
+.docMainContainer,
+.docItemWrapper,
+.docs__container,
+.docItemContainer,
+.markdown,
+.theme-doc-markdown {
+  background-color: #13111A !important;
+  color: #ffffff !important;
+}
+
+.theme-doc p, .theme-doc li, .theme-doc small, .theme-doc .admonition, .theme-doc .admonition p {
+  color: #ffffff !important;
+}
+
+.theme-doc pre, .theme-doc code, .theme-doc .gatsby-highlight, .theme-doc .codeBlock {
+  background-color: #2f2f2f !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+}
+
+.theme-doc pre, .theme-doc .gatsby-highlight, .gatsby-highlight pre, pre {
+  padding: 16px !important;
+  overflow: auto !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Source Code Pro", monospace !important;
+  line-height: 1.5 !important;
+}
+
+.theme-doc code, .markdown code, code {
+  background-color: #383838 !important;
+  color: #ffffff !important;
+  padding: 0.15em 0.35em !important;
+  border-radius: 4px !important;
+  font-size: 0.95em !important;
+}
+
+.theme-doc a, .theme-doc .markdown a, .docItemContainer a, .markdown a {
+  color: #ffb3ff !important;
+  text-decoration: underline !important;
+  text-decoration-color: rgba(255,179,255,0.95) !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 3px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: color 120ms ease, text-decoration-color 120ms ease, transform 120ms ease;
+}
+
+.theme-doc a:hover, .theme-doc .markdown a:hover, .docItemContainer a:hover, .markdown a:hover {
+  color: #ffffff !important;
+  text-decoration-color: rgba(255,230,255,0.98) !important;
+  transform: translateY(-1px);
+}
+
+.theme-doc a:focus, .theme-doc .markdown a:focus, .docItemContainer a:focus, .markdown a:focus {
+  outline: 3px solid rgba(255,179,255,0.28) !important;
+  outline-offset: 3px !important;
+}
+
+.theme-doc-root,
+.theme-doc-root .main-wrapper,
+.theme-doc-root .main-wrapper > .container,
+.theme-doc-root .docMainWrapper,
+.theme-doc-root .docMainContainer,
+.docs, .docs .main-wrapper,
+.docs .docMainWrapper,
+.docMainWrapper,
+.main-wrapper.docs,
+.main-wrapper.docs > .container,
+.docItemWrapper,
+.docItemContainer,
+.docs__container {
+  background-color: #13111A !important;
+  color: #ffffff !important;
+  min-height: 100vh;
+}
+
+.main-wrapper > .container,
+.container--fluid,
+.container--xl,
+.wrapper {
+  background-color: transparent;
+}
+
+html, body, #__docusaurus, .site-wrapper, .main-wrapper, .main-wrapper > .container, .container--fluid, .docs, .docs .main-wrapper {
+  background-color: #13111A !important;
+  color: #ffffff !important;
+}
+
+.hero, .hero--primary, .heroBanner, .hero__title, .hero__subtitle {
+  background: transparent !important;
+  color: #ffffff !important;
+}
+
+.container, .container > .row, .container--fluid, .row, .col, .card, .card__body, .post, .docArticle, .article, .admonition, .admonition .admonition-content, .panel, .panel__body {
+  background-color: transparent !important;
+  color: #ffffff !important;
+}
+
+.blog, .blog__post, .post__content, .blog .post, .blog .post__header {
+  background-color: transparent !important;
+  color: #ffffff !important;
+}
+
+figure, img, .content img {
+  background-color: transparent !important;
+}
+
+.gatsby-highlight, .gatsby-highlight pre, pre, code {
+  background-color: rgba(0,0,0,0.14) !important;
+  color: #ffffff !important;
+}
+
+table, thead, tbody, tr, th, td {
+  background-color: transparent !important;
+  color: #ffffff !important;
+}
+
+html, body {
+  background-color: #13111A !important;
+  color: #ffffff !important;
+  min-height: 100vh;
+}
+
+#__docusaurus, #___docusaurus, .site-wrapper, .main-wrapper, .main-wrapper > .container, main, .main, .docs, .theme-doc-root, .docMainWrapper, .docMainContainer, .docItemWrapper, .docItemContainer, .docs__container {
+  background: transparent !important;
+  color: #ffffff !important;
+}
+
+.container, .container > .row, .container--fluid, .row, .col, .card, .card__body, .post, .docArticle, .article, .admonition, .admonition .admonition-content, .panel, .panel__body, .wrapper {
+  background: transparent !important;
+  color: #ffffff !important;
+}
+
+.navbar, .navbar--light, .navbar--dark, .footer, .theme-doc-sidebar, .sidebar {
+  background-color: var(--topbar-bg) !important;
+  color: var(--topbar-text) !important;
+  z-index: 50;
+}
+
+.theme-doc a, .theme-doc .markdown a, a {
+  color: #ffb3ff !important;
+}
+
+.gatsby-highlight, .gatsby-highlight pre, pre, code {
+  background-color: rgba(0,0,0,0.14) !important;
+  color: #ffffff !important;
+}
+
+table, thead, tbody, tr, th, td, .admonition {
+  background-color: transparent !important;
+  color: #ffffff !important;
+}
+
+body > *:not(.navbar):not(.footer):not(.theme-doc-sidebar):not(.sidebar) {
+  background: transparent !important;
+}
+
+body * { background: transparent !important; }
+
+.theme-doc-version-badge,
+.docs-version-banner,
+.docsVersionBanner,
+.version-badge,
+.docs-version,
+.docs-version-label,
+.docVersionBadge,
+.versionBadge,
+.docs-version-notice,
+.doc-version,
+.docs-version-current,
+.docs-version-prefix,
+.docs-version {
+  background-color: #312248 !important;
+  color: #ffffff !important;
+  border-radius: 6px !important;
+  padding: 4px 8px !important;
+  display: inline-block !important;
+  font-weight: 700 !important;
+}
+
+.docs-version-badge a,
+.docs-version-banner a,
+.docs-version a,
+.docs-version-label a,
+.version-badge a {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+.docs-version-badge .badge,
+.docs-version-banner .badge,
+.version-badge .badge {
+  background: rgba(255,255,255,0.06) !important;
+  color: #ffffff !important;
+}
+
+.theme-doc pre, .theme-doc .gatsby-highlight, .theme-doc .gatsby-highlight pre, .theme-doc .codeBlock, .theme-doc code, .theme-doc .markdown code {
+  background-color: #2f2f2f !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+}
+
+.theme-doc pre, .theme-doc .gatsby-highlight pre, .theme-doc .codeBlock {
+  padding: 16px !important;
+  overflow: auto !important;
+}
+
+.theme-doc code, .theme-doc .markdown code {
+  background-color: #383838 !important;
+  color: #ffffff !important;
+  padding: 0.15em 0.35em !important;
+  border-radius: 4px !important;
+}

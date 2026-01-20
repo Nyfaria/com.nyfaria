@@ -1,0 +1,23 @@
+---
+title: Crafting example
+---
+
+import MinecraftRecipe from '@site/src/components/MinecraftRecipe';
+
+Below is an example recipe using local item images placed in `static/img/items/`.
+
+<MinecraftRecipe
+  pattern={[" A ", "ABA", " A "]}
+  keyMap={{
+    A: { item: 'minecraft:item/item_frame', label: 'Item Frame' },
+    B: { item: 'minecraft:item/stick', label: 'Stick'},
+    ' ': { image: '', label: 'Empty' }
+  }}
+  result={{ item: 'minecraft:item/map', label: 'Filled Map', count: 2 }}
+  size={32}
+/>
+
+
+Notes:
+- Put custom textures in `static/img/items/` and reference them by filename (e.g., `item_frame.png`).
+- You can also use an absolute URL like `https://assets.mcasset.cloud/.../item_frame.png` in `image`.

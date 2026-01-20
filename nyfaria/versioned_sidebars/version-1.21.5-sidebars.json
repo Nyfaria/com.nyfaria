@@ -1,0 +1,25 @@
+{
+  "modsSidebar": [
+    {
+      "type": "doc",
+      "id": "mods/intro",
+      "label": "Welcome"
+    },
+    {
+      "type": "category",
+      "label": "AdvancedWallClimberAPI",
+      "collapsible": true,
+      "collapsed": true,
+      "items": [
+        {
+          "type": "doc",
+          "id": "advancedwallclimberapi/intro",
+          "label": "Introduction"
+        },
+        "advancedwallclimberapi/installation",
+        "advancedwallclimberapi/usage",
+        "advancedwallclimberapi/api-reference"
+      ]
+    }
+  ]
+}
