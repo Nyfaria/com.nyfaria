@@ -1,0 +1,63 @@
+---
+title: Nyf's Quivers Recipes
+---
+
+import LicenseNotice from '@site/src/components/LicenseNotice';
+import MinecraftRecipe from '@site/src/components/MinecraftRecipe';
+
+export const textures = {
+  nyfsquiver: 'https://raw.githubusercontent.com/Nyfaria/NyfsQuiver/1.21.1/common/src/main/resources/assets/nyfsquiver/textures',
+};
+
+
+
+## Base Quiver
+
+<MinecraftRecipe
+  pattern={["  F", " L ", "L  "]}
+  keyMap={{
+    F: { item: 'minecraft:item/feather', label: 'Feather' },
+    L: { item: 'minecraft:item/leather', label: 'Leather' }
+  }}
+  result={{ item: 'nyfsquiver:item/basic_quiver', label: 'Quiver' }}
+  textures={textures}
+/>
+
+## Iron Quiver
+
+<MinecraftRecipe
+  pattern={["IIF", "ILI", "III"]}
+  keyMap={{
+    F: { item: 'minecraft:item/feather', label: 'Feather' },
+    I: { item: 'minecraft:item/iron_ingot', label: 'Iron Ingot' },
+    L: { item: 'nyfsquiver:item/basic_quiver', label: 'Quiver' }
+  }}
+  result={{ item: 'nyfsquiver:item/iron_quiver', label: 'Iron Quiver' }}
+  textures={textures}
+/>
+
+## Gold Quiver
+
+<MinecraftRecipe
+  pattern={["GGF", "GLG", "GGG"]}
+  keyMap={{
+    F: { item: 'minecraft:item/feather', label: 'Feather' },
+    G: { item: 'minecraft:item/gold_ingot', label: 'Gold Ingot' },
+    L: { item: 'nyfsquiver:item/basic_quiver', label: 'Quiver' }
+  }}
+  result={{ item: 'nyfsquiver:item/gold_quiver', label: 'Gold Quiver' }}
+  textures={textures}
+/>
+
+## Diamond Quiver
+
+<MinecraftRecipe
+  pattern={["DDF", "DLD", "DDD"]}
+  keyMap={{
+    F: { item: 'minecraft:item/feather', label: 'Feather' },
+    D: { item: 'minecraft:item/diamond', label: 'Diamond' },
+    L: { item: 'nyfsquiver:item/basic_quiver', label: 'Quiver' }
+  }}
+  result={{ item: 'nyfsquiver:item/diamond_quiver', label: 'Diamond Quiver' }}
+  textures={textures}
+/>

@@ -36,6 +36,16 @@
           "label": "Recipes"
         }
       ]
+    },
+    {
+      "type": "category",
+      "label": "Nyf's Quivers",
+      "collapsible": true,
+      "collapsed": true,
+      "items": [
+        { "type": "doc", "id": "nyfsquiver/intro", "label": "Introduction" },
+        { "type": "doc", "id": "nyfsquiver/recipes", "label": "Recipes" }
+      ]
     }
   ]
 }

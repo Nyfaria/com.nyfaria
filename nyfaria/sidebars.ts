@@ -31,16 +31,6 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'ExampleMod',
-      collapsible: true,
-      collapsed: true,
-      items: [
-        { type: 'doc', id: 'examplemod/intro', label: 'Introduction' },
-        { type: 'doc', id: 'examplemod/recipe-example', label: 'Crafting example' },
-      ],
-    },
-    {
-      type: 'category',
       label: 'FancyFrames',
       collapsible: true,
       collapsed: true,

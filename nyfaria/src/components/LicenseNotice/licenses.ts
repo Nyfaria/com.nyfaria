@@ -3,7 +3,7 @@ export const LICENSES: Record<string, {title?: string; paragraphs: string[]}> = 
     title: 'All Rights Reserved (ARR) — Usage Notes',
     paragraphs: [
       'Regardless of this mod being "All Rights Reserved," you are allowed to use it in your modpack, depend on it to make addons and such, as long as you do not embed the jar anywhere and the downloads come directly from Modrinth or CurseForge.',
-      'In short: redistribution of the JAR itself (embedding in another downloadable package) is not allowed — linking to or fetching from the official distribution (Modrinth/CurseForge) is required.',
+      'In short: redistribution of the JAR itself (embedding in another downloadable package) is not allowed — linking to and/or fetching from the official distribution (Modrinth/CurseForge) is required.',
     ],
   },
   MIT: {
