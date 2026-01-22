@@ -1,0 +1,54 @@
+{
+  "modsSidebar": [
+    {
+      "type": "doc",
+      "id": "mods/intro",
+      "label": "Welcome"
+    },
+    {
+      "type": "category",
+      "label": "FancyFrames",
+      "collapsible": true,
+      "collapsed": true,
+      "items": [
+        {
+          "type": "doc",
+          "id": "fancyframes/intro",
+          "label": "Introduction"
+        },
+        "fancyframes/installation",
+        "fancyframes/usage",
+        {
+          "type": "doc",
+          "id": "fancyframes/recipe",
+          "label": "Recipes"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Nyf's Quivers",
+      "collapsible": true,
+      "collapsed": true,
+      "items": [
+        { "type": "doc", "id": "nyfsquiver/intro", "label": "Introduction" },
+        { "type": "doc", "id": "nyfsquiver/recipes", "label": "Recipes" }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Another Quality Ore Set",
+      "collapsible": true,
+      "collapsed": true,
+      "items": [
+        {
+          "type": "doc",
+          "id": "anotherqualityoreset/intro",
+          "label": "Introduction"
+        },
+        "anotherqualityoreset/usage",
+        "anotherqualityoreset/recipes"
+      ]
+    }
+  ]
+}

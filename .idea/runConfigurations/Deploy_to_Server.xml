@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Deploy to Server" type="PowerShellRunConfigurationType">
+    <option name="scriptPath" value="$PROJECT_DIR$/scripts/deploy.ps1" />
+    <option name="workingDirectory" value="$PROJECT_DIR$" />
+    <option name="scriptParameters" value="" />
+    <option name="executeInCurrentConsole" value="false" />
+    <option name="useProfileByDefault" value="true" />
+    <method v="2">
+      <option name="NpmBeforeRunTask" enabled="true">
+        <package-json value="$PROJECT_DIR$/package.json" />
+        <command value="run" />
+        <scripts>
+          <script value="build" />
+        </scripts>
+        <node-interpreter value="project" />
+        <envs />
+      </option>
+    </method>
+  </configuration>
+</component>

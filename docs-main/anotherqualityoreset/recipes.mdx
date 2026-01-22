@@ -1,0 +1,592 @@
+---
+title: Recipes
+sidebar_label: Recipes
+---
+
+import MinecraftRecipe from '@site/src/components/MinecraftRecipe';
+
+export const textures = {
+  anotherqualityoreset: 'https://raw.githubusercontent.com/Nyfaria/AnotherQualityOreSet/refs/heads/1.20.x/Common/src/main/resources/assets/anotherqualityoreset/textures',
+};
+
+---
+
+## Smelting Recipes
+
+### Easium Ingot
+
+<MinecraftRecipe
+  type="FURNACE"
+  input={{ item: 'anotherqualityoreset:item/raw_easium', label: 'Raw Easium' }}
+  result={{ item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' }}
+  textures={textures}
+/>
+
+### Medium Ingot
+
+<MinecraftRecipe
+  type="FURNACE"
+  input={{ item: 'anotherqualityoreset:item/raw_medium', label: 'Raw Medium' }}
+  result={{ item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' }}
+  textures={textures}
+/>
+
+### Hardium Ingot
+
+<MinecraftRecipe
+  type="FURNACE"
+  input={{ item: 'anotherqualityoreset:item/raw_hardium', label: 'Raw Hardium' }}
+  result={{ item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' }}
+  textures={textures}
+/>
+
+---
+
+## Easium Tier
+
+### Easium Helmet
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_helmet', label: 'Easium Helmet' }}
+  textures={textures}
+/>
+
+### Easium Chestplate
+
+<MinecraftRecipe
+  pattern={["X X", "XXX", "XXX"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_chestplate', label: 'Easium Chestplate' }}
+  textures={textures}
+/>
+
+### Easium Leggings
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "X X"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_leggings', label: 'Easium Leggings' }}
+  textures={textures}
+/>
+
+### Easium Boots
+
+<MinecraftRecipe
+  pattern={["X X", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_boots', label: 'Easium Boots' }}
+  textures={textures}
+/>
+
+### Easium Sword
+
+<MinecraftRecipe
+  pattern={["X  ", "X  ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_sword', label: 'Easium Sword' }}
+  textures={textures}
+/>
+
+### Easium Pickaxe
+
+<MinecraftRecipe
+  pattern={["XXX", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_pickaxe', label: 'Easium Pickaxe' }}
+  textures={textures}
+/>
+
+### Easium Axe
+
+<MinecraftRecipe
+  pattern={["XX ", "X# ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_axe', label: 'Easium Axe' }}
+  textures={textures}
+/>
+
+### Easium Shovel
+
+<MinecraftRecipe
+  pattern={["X  ", "#  ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_shovel', label: 'Easium Shovel' }}
+  textures={textures}
+/>
+
+### Easium Hoe
+
+<MinecraftRecipe
+  pattern={["XX ", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_hoe', label: 'Easium Hoe' }}
+  textures={textures}
+/>
+
+### Easium Hammer
+
+<MinecraftRecipe
+  pattern={["XXX", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:block/easium_block', label: 'Easium Block' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_hammer', label: 'Easium Hammer' }}
+  textures={textures}
+/>
+
+### Easium Paxel
+
+<MinecraftRecipe
+  pattern={["PAS", " # ", " # "]}
+  keyMap={{
+    P: { item: 'anotherqualityoreset:item/easium_pickaxe', label: 'Easium Pickaxe' },
+    A: { item: 'anotherqualityoreset:item/easium_axe', label: 'Easium Axe' },
+    S: { item: 'anotherqualityoreset:item/easium_shovel', label: 'Easium Shovel' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_paxel', label: 'Easium Paxel' }}
+  textures={textures}
+/>
+
+### Easium Tree Axe
+
+<MinecraftRecipe
+  pattern={["XB ", "X# ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' },
+    B: { item: 'anotherqualityoreset:block/easium_block', label: 'Easium Block' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_tree_axe', label: 'Easium Tree Axe' }}
+  textures={textures}
+/>
+
+### Easium Rod
+
+<MinecraftRecipe
+  pattern={["  X", " X ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_rod', label: 'Easium Rod' }}
+  textures={textures}
+/>
+
+---
+
+## Medium Tier
+
+### Medium Helmet
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_helmet', label: 'Medium Helmet' }}
+  textures={textures}
+/>
+
+### Medium Chestplate
+
+<MinecraftRecipe
+  pattern={["X X", "XXX", "XXX"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_chestplate', label: 'Medium Chestplate' }}
+  textures={textures}
+/>
+
+### Medium Leggings
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "X X"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_leggings', label: 'Medium Leggings' }}
+  textures={textures}
+/>
+
+### Medium Boots
+
+<MinecraftRecipe
+  pattern={["X X", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_boots', label: 'Medium Boots' }}
+  textures={textures}
+/>
+
+### Medium Sword
+
+<MinecraftRecipe
+  pattern={["X  ", "X  ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_sword', label: 'Medium Sword' }}
+  textures={textures}
+/>
+
+### Medium Pickaxe
+
+<MinecraftRecipe
+  pattern={["XXX", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_pickaxe', label: 'Medium Pickaxe' }}
+  textures={textures}
+/>
+
+### Medium Axe
+
+<MinecraftRecipe
+  pattern={["XX ", "X# ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_axe', label: 'Medium Axe' }}
+  textures={textures}
+/>
+
+### Medium Shovel
+
+<MinecraftRecipe
+  pattern={["X  ", "#  ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_shovel', label: 'Medium Shovel' }}
+  textures={textures}
+/>
+
+### Medium Hoe
+
+<MinecraftRecipe
+  pattern={["XX ", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_hoe', label: 'Medium Hoe' }}
+  textures={textures}
+/>
+
+### Medium Hammer
+
+<MinecraftRecipe
+  pattern={["XXX", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:block/medium_block', label: 'Medium Block' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_hammer', label: 'Medium Hammer' }}
+  textures={textures}
+/>
+
+### Medium Paxel
+
+<MinecraftRecipe
+  pattern={["PAS", " # ", " # "]}
+  keyMap={{
+    P: { item: 'anotherqualityoreset:item/medium_pickaxe', label: 'Medium Pickaxe' },
+    A: { item: 'anotherqualityoreset:item/medium_axe', label: 'Medium Axe' },
+    S: { item: 'anotherqualityoreset:item/medium_shovel', label: 'Medium Shovel' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_paxel', label: 'Medium Paxel' }}
+  textures={textures}
+/>
+
+### Medium Tree Axe
+
+<MinecraftRecipe
+  pattern={["XB ", "X# ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' },
+    B: { item: 'anotherqualityoreset:block/medium_block', label: 'Medium Block' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_tree_axe', label: 'Medium Tree Axe' }}
+  textures={textures}
+/>
+
+### Medium Rod
+
+<MinecraftRecipe
+  pattern={["  X", " X ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_rod', label: 'Medium Rod' }}
+  textures={textures}
+/>
+
+---
+
+## Hardium Tier
+
+### Hardium Helmet
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_helmet', label: 'Hardium Helmet' }}
+  textures={textures}
+/>
+
+### Hardium Chestplate
+
+<MinecraftRecipe
+  pattern={["X X", "XXX", "XXX"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_chestplate', label: 'Hardium Chestplate' }}
+  textures={textures}
+/>
+
+### Hardium Leggings
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "X X"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_leggings', label: 'Hardium Leggings' }}
+  textures={textures}
+/>
+
+### Hardium Boots
+
+<MinecraftRecipe
+  pattern={["X X", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_boots', label: 'Hardium Boots' }}
+  textures={textures}
+/>
+
+### Hardium Sword
+
+<MinecraftRecipe
+  pattern={["X  ", "X  ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_sword', label: 'Hardium Sword' }}
+  textures={textures}
+/>
+
+### Hardium Pickaxe
+
+<MinecraftRecipe
+  pattern={["XXX", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_pickaxe', label: 'Hardium Pickaxe' }}
+  textures={textures}
+/>
+
+### Hardium Axe
+
+<MinecraftRecipe
+  pattern={["XX ", "X# ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_axe', label: 'Hardium Axe' }}
+  textures={textures}
+/>
+
+### Hardium Shovel
+
+<MinecraftRecipe
+  pattern={["X  ", "#  ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_shovel', label: 'Hardium Shovel' }}
+  textures={textures}
+/>
+
+### Hardium Hoe
+
+<MinecraftRecipe
+  pattern={["XX ", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_hoe', label: 'Hardium Hoe' }}
+  textures={textures}
+/>
+
+### Hardium Hammer
+
+<MinecraftRecipe
+  pattern={["XXX", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:block/hardium_block', label: 'Hardium Block' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_hammer', label: 'Hardium Hammer' }}
+  textures={textures}
+/>
+
+### Hardium Paxel
+
+<MinecraftRecipe
+  pattern={["PAS", " # ", " # "]}
+  keyMap={{
+    P: { item: 'anotherqualityoreset:item/hardium_pickaxe', label: 'Hardium Pickaxe' },
+    A: { item: 'anotherqualityoreset:item/hardium_axe', label: 'Hardium Axe' },
+    S: { item: 'anotherqualityoreset:item/hardium_shovel', label: 'Hardium Shovel' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_paxel', label: 'Hardium Paxel' }}
+  textures={textures}
+/>
+
+### Hardium Tree Axe
+
+<MinecraftRecipe
+  pattern={["XB ", "X# ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' },
+    B: { item: 'anotherqualityoreset:block/hardium_block', label: 'Hardium Block' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_tree_axe', label: 'Hardium Tree Axe' }}
+  textures={textures}
+/>
+
+### Hardium Rod
+
+<MinecraftRecipe
+  pattern={["  X", " X ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_rod', label: 'Hardium Rod' }}
+  textures={textures}
+/>
+
+---
+
+## Telos Tier
+
+### Telos Scrap
+
+<MinecraftRecipe
+  pattern={["MEH", "EDE", "HEM"]}
+  keyMap={{
+    M: { item: 'anotherqualityoreset:item/medium_rod', label: 'Medium Rod' },
+    E: { item: 'anotherqualityoreset:item/easium_rod', label: 'Easium Rod' },
+    H: { item: 'anotherqualityoreset:item/hardium_rod', label: 'Hardium Rod' },
+    D: { item: 'minecraft:item/dragon_breath', label: 'Dragon Breath' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/telos_scrap', label: 'Telos Scrap' }}
+  textures={textures}
+/>
+
+### Telos Helmet
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/telos_scrap', label: 'Telos Scrap' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/telos_helmet', label: 'Telos Helmet' }}
+  textures={textures}
+/>
+
+### Telos Chestplate
+
+<MinecraftRecipe
+  pattern={["X X", "XXX", "XXX"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/telos_scrap', label: 'Telos Scrap' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/telos_chestplate', label: 'Telos Chestplate' }}
+  textures={textures}
+/>
+
+### Telos Leggings
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "X X"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/telos_scrap', label: 'Telos Scrap' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/telos_leggings', label: 'Telos Leggings' }}
+  textures={textures}
+/>
+
+### Telos Boots
+
+<MinecraftRecipe
+  pattern={["X X", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/telos_scrap', label: 'Telos Scrap' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/telos_boots', label: 'Telos Boots' }}
+  textures={textures}
+/>
+
+### Telos Sword
+
+<MinecraftRecipe
+  pattern={["X  ", "X  ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/telos_scrap', label: 'Telos Scrap' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/telos_sword', label: 'Telos Sword' }}
+  textures={textures}
+/>
