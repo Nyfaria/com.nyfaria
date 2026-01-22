@@ -28,6 +28,42 @@
 
 body {
   color: #ffffff;
+  background-color: #13111A !important;
+}
+
+html {
+  background-color: #13111A !important;
+}
+
+html, body, #__docusaurus {
+  min-height: 100vh;
+  background-color: #13111A !important;
+}
+
+#__docusaurus {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-wrapper {
+  flex: 1;
+  background-color: #13111A !important;
+}
+
+.docPage,
+.docPage > .container,
+.docPage > .container > .row,
+.docPage .col,
+.docRoot,
+.docsWrapper,
+[class*="docPage"],
+[class*="docRoot"],
+[class*="docsWrapper"],
+.row,
+.col {
+  background-color: #13111A !important;
+  min-height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6, .hero__subtitle, .hero__title {
@@ -326,7 +362,46 @@ body > *:not(.navbar):not(.footer):not(.theme-doc-sidebar):not(.sidebar) {
   background: transparent !important;
 }
 
-body * { background: transparent !important; }
+.theme-doc-toc-desktop,
+.theme-doc-toc-mobile,
+.table-of-contents,
+.tableOfContents,
+.toc,
+.tocCollapsible,
+.tocCollapsibleContent,
+aside.theme-doc-toc-desktop,
+.col.col--3,
+.theme-doc-toc-desktop ul,
+.theme-doc-toc-desktop li,
+.theme-doc-toc-desktop a {
+  background-color: #13111A !important;
+  color: #ffffff !important;
+}
+
+.theme-doc-toc-desktop a,
+.table-of-contents a,
+.toc a {
+  color: #ffb3ff !important;
+}
+
+.theme-doc-toc-desktop a:hover,
+.table-of-contents a:hover,
+.toc a:hover {
+  color: #ffffff !important;
+}
+
+.navbar, .navbar--light, .navbar--dark, .footer, .theme-doc-sidebar, .sidebar, .menu {
+  background-color: var(--topbar-bg) !important;
+}
+
+.theme-doc-toc-desktop,
+.theme-doc-toc-mobile,
+.table-of-contents,
+.tableOfContents,
+.toc,
+aside.theme-doc-toc-desktop {
+  background-color: #13111A !important;
+}
 
 .theme-doc-version-badge,
 .docs-version-banner,

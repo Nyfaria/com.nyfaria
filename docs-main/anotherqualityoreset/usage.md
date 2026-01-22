@@ -34,7 +34,6 @@ To craft Telos gear, you'll need:
 3. Combine them to create Telos Scrap
 4. Use Telos Scrap to craft the most powerful armor and weapons
 
-See the [Recipes](./recipes) page for detailed crafting instructions.
 
 ## Special Tools
 

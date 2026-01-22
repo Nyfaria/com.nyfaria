@@ -1,0 +1,209 @@
+---
+title: Medium Ore Set
+sidebar_label: Medium Ore Set
+sidebar_position: 2
+---
+
+import MinecraftRecipe from '@site/src/components/MinecraftRecipe';
+
+export const textures = {
+  anotherqualityoreset: 'https://raw.githubusercontent.com/Nyfaria/AnotherQualityOreSet/refs/heads/1.20.x/Common/src/main/resources/assets/anotherqualityoreset/textures',
+};
+
+<div style={{overflow: 'hidden', marginBottom: '20px'}}>
+  <img src="https://raw.githubusercontent.com/Nyfaria/AnotherQualityOreSet/refs/heads/1.20.x/wiki/medium_set.png" alt="Medium Set" style={{float: 'right', maxWidth: '33%', borderRadius: '8px', marginLeft: '20px', marginBottom: '10px'}} />
+
+  <h2 style={{marginTop: 0}}>Overview</h2>
+
+  The **Medium Set** is the second tier ore set in Another Quality Ore Set. Found exclusively in the **Nether**, Medium ore generates throughout the dangerous hellscape dimension, rewarding brave adventurers who dare to explore.
+
+  Medium gear offers significantly improved stats over Easium, making the trek to the Nether worthwhile. The set provides enhanced durability, mining speed, and combat effectiveness.
+</div>
+
+## Set Bonus: Fire Resistance
+
+:::tip Set Bonus
+When wearing the **full Medium armor set**, you gain permanent **Fire Resistance**! This makes you immune to fire and lava damage, perfect for navigating the treacherous Nether terrain.
+:::
+
+## Obtaining Medium
+
+Medium ore can be found scattered throughout the Nether dimension. Mine the ore with an Easium pickaxe or better, then smelt the raw medium in a furnace to obtain Medium Ingots.
+
+### Medium Ingot (Smelting)
+
+<MinecraftRecipe
+  type="FURNACE"
+  input={{ item: 'anotherqualityoreset:item/raw_medium', label: 'Raw Medium' }}
+  result={{ item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' }}
+  textures={textures}
+/>
+
+## Armor Recipes
+
+### Medium Helmet
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_helmet', label: 'Medium Helmet' }}
+  textures={textures}
+/>
+
+### Medium Chestplate
+
+<MinecraftRecipe
+  pattern={["X X", "XXX", "XXX"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_chestplate', label: 'Medium Chestplate' }}
+  textures={textures}
+/>
+
+### Medium Leggings
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "X X"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_leggings', label: 'Medium Leggings' }}
+  textures={textures}
+/>
+
+### Medium Boots
+
+<MinecraftRecipe
+  pattern={["X X", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_boots', label: 'Medium Boots' }}
+  textures={textures}
+/>
+
+## Tool Recipes
+
+### Medium Sword
+
+<MinecraftRecipe
+  pattern={["X  ", "X  ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/medium_rod', label: 'Medium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_sword', label: 'Medium Sword' }}
+  textures={textures}
+/>
+
+### Medium Pickaxe
+
+<MinecraftRecipe
+  pattern={["XXX", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/medium_rod', label: 'Medium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_pickaxe', label: 'Medium Pickaxe' }}
+  textures={textures}
+/>
+
+### Medium Axe
+
+<MinecraftRecipe
+  pattern={["XX ", "X# ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/medium_rod', label: 'Medium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_axe', label: 'Medium Axe' }}
+  textures={textures}
+/>
+
+### Medium Shovel
+
+<MinecraftRecipe
+  pattern={["X  ", "#  ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/medium_rod', label: 'Medium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_shovel', label: 'Medium Shovel' }}
+  textures={textures}
+/>
+
+### Medium Hoe
+
+<MinecraftRecipe
+  pattern={["XX ", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/medium_rod', label: 'Medium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_hoe', label: 'Medium Hoe' }}
+  textures={textures}
+/>
+
+## Special Tools
+
+### Medium Hammer
+
+The Medium Hammer is a powerful mining tool that mines a 3x3 area of blocks at once.
+
+<MinecraftRecipe
+  pattern={["XXX", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:block/medium_block', label: 'Medium Block' },
+    '#': { item: 'anotherqualityoreset:item/medium_rod', label: 'Medium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_hammer', label: 'Medium Hammer' }}
+  textures={textures}
+/>
+
+### Medium Paxel
+
+The Paxel combines the functionality of a pickaxe, axe, and shovel into one convenient tool.
+
+<MinecraftRecipe
+  pattern={["PAS", " # ", " # "]}
+  keyMap={{
+    P: { item: 'anotherqualityoreset:item/medium_pickaxe', label: 'Medium Pickaxe' },
+    A: { item: 'anotherqualityoreset:item/medium_axe', label: 'Medium Axe' },
+    S: { item: 'anotherqualityoreset:item/medium_shovel', label: 'Medium Shovel' },
+    '#': { item: 'anotherqualityoreset:item/medium_rod', label: 'Medium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_paxel', label: 'Medium Paxel' }}
+  textures={textures}
+/>
+
+### Medium Tree Axe
+
+The Tree Axe allows you to chop down entire trees by breaking just one log block.
+
+<MinecraftRecipe
+  pattern={["XB ", "X# ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' },
+    B: { item: 'anotherqualityoreset:block/medium_block', label: 'Medium Block' },
+    '#': { item: 'anotherqualityoreset:item/medium_rod', label: 'Medium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_tree_axe', label: 'Medium Tree Axe' }}
+  textures={textures}
+/>
+
+### Medium Rod
+
+The Medium Rod is a crafting component used in creating the ultimate Telos gear.
+
+<MinecraftRecipe
+  pattern={["  X", " X ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/medium_ingot', label: 'Medium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/medium_rod', label: 'Medium Rod' }}
+  textures={textures}
+/>

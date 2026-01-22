@@ -53,7 +53,17 @@ const sidebars: SidebarsConfig = {
           "label": "Introduction"
         },
         "anotherqualityoreset/usage",
-        "anotherqualityoreset/recipes"
+        {
+          "type": "category",
+          "label": "Ore Sets",
+          "collapsed": true,
+          "items": [
+            "anotherqualityoreset/oresets/easium",
+            "anotherqualityoreset/oresets/medium",
+            "anotherqualityoreset/oresets/hardium",
+            "anotherqualityoreset/oresets/telos"
+          ]
+        }
       ]
     },
     {

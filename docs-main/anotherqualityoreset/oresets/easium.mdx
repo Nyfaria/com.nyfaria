@@ -1,0 +1,203 @@
+---
+title: Easium Ore Set
+sidebar_label: Easium Ore Set
+sidebar_position: 1
+---
+
+import MinecraftRecipe from '@site/src/components/MinecraftRecipe';
+
+export const textures = {
+  anotherqualityoreset: 'https://raw.githubusercontent.com/Nyfaria/AnotherQualityOreSet/refs/heads/1.20.x/Common/src/main/resources/assets/anotherqualityoreset/textures',
+};
+
+<div style={{overflow: 'hidden', marginBottom: '20px'}}>
+  <img src="https://raw.githubusercontent.com/Nyfaria/AnotherQualityOreSet/refs/heads/1.20.x/wiki/easium_set.png" alt="Easium Set" style={{float: 'right', maxWidth: '33%', borderRadius: '8px', marginLeft: '20px', marginBottom: '10px'}} />
+
+  <h2 style={{marginTop: 0}}>Overview</h2>
+
+  The **Easium Set** is the entry-level ore set in Another Quality Ore Set. Found exclusively in the **Overworld**, Easium ore generates in the stone layer, making it accessible early in your Minecraft journey.
+
+  Easium provides a solid stepping stone between vanilla diamond gear and the more advanced ore sets. Its tools and armor offer improved durability and efficiency compared to iron, making it an excellent choice for players just beginning to explore the mod's content.
+</div>
+
+## Obtaining Easium
+
+Easium ore can be found in the Overworld, typically at Y levels similar to iron ore. Mine the ore with an iron pickaxe or better, then smelt the raw easium in a furnace to obtain Easium Ingots.
+
+### Easium Ingot (Smelting)
+
+<MinecraftRecipe
+  type="FURNACE"
+  input={{ item: 'anotherqualityoreset:item/raw_easium', label: 'Raw Easium' }}
+  result={{ item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' }}
+  textures={textures}
+/>
+
+## Armor Recipes
+
+### Easium Helmet
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_helmet', label: 'Easium Helmet' }}
+  textures={textures}
+/>
+
+### Easium Chestplate
+
+<MinecraftRecipe
+  pattern={["X X", "XXX", "XXX"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_chestplate', label: 'Easium Chestplate' }}
+  textures={textures}
+/>
+
+### Easium Leggings
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "X X"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_leggings', label: 'Easium Leggings' }}
+  textures={textures}
+/>
+
+### Easium Boots
+
+<MinecraftRecipe
+  pattern={["X X", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_boots', label: 'Easium Boots' }}
+  textures={textures}
+/>
+
+## Tool Recipes
+
+### Easium Sword
+
+<MinecraftRecipe
+  pattern={["X  ", "X  ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/easium_rod', label: 'Easium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_sword', label: 'Easium Sword' }}
+  textures={textures}
+/>
+
+### Easium Pickaxe
+
+<MinecraftRecipe
+  pattern={["XXX", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/easium_rod', label: 'Easium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_pickaxe', label: 'Easium Pickaxe' }}
+  textures={textures}
+/>
+
+### Easium Axe
+
+<MinecraftRecipe
+  pattern={["XX ", "X# ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/easium_rod', label: 'Easium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_axe', label: 'Easium Axe' }}
+  textures={textures}
+/>
+
+### Easium Shovel
+
+<MinecraftRecipe
+  pattern={["X  ", "#  ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/easium_rod', label: 'Easium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_shovel', label: 'Easium Shovel' }}
+  textures={textures}
+/>
+
+### Easium Hoe
+
+<MinecraftRecipe
+  pattern={["XX ", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/easium_rod', label: 'Easium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_hoe', label: 'Easium Hoe' }}
+  textures={textures}
+/>
+
+## Special Tools
+
+### Easium Hammer
+
+The Easium Hammer is a powerful mining tool that mines a 3x3 area of blocks at once.
+
+<MinecraftRecipe
+  pattern={["XXX", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:block/easium_block', label: 'Easium Block' },
+    '#': { item: 'anotherqualityoreset:item/easium_rod', label: 'Easium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_hammer', label: 'Easium Hammer' }}
+  textures={textures}
+/>
+
+### Easium Paxel
+
+The Paxel combines the functionality of a pickaxe, axe, and shovel into one convenient tool.
+
+<MinecraftRecipe
+  pattern={["PAS", " # ", " # "]}
+  keyMap={{
+    P: { item: 'anotherqualityoreset:item/easium_pickaxe', label: 'Easium Pickaxe' },
+    A: { item: 'anotherqualityoreset:item/easium_axe', label: 'Easium Axe' },
+    S: { item: 'anotherqualityoreset:item/easium_shovel', label: 'Easium Shovel' },
+    '#': { item: 'anotherqualityoreset:item/easium_rod', label: 'Easium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_paxel', label: 'Easium Paxel' }}
+  textures={textures}
+/>
+
+### Easium Tree Axe
+
+The Tree Axe allows you to chop down entire trees by breaking just one log block.
+
+<MinecraftRecipe
+  pattern={["XB ", "X# ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' },
+    B: { item: 'anotherqualityoreset:block/easium_block', label: 'Easium Block' },
+    '#': { item: 'anotherqualityoreset:item/easium_rod', label: 'Easium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_tree_axe', label: 'Easium Tree Axe' }}
+  textures={textures}
+/>
+
+### Easium Rod
+
+The Easium Rod is a crafting component used in creating the ultimate Telos gear.
+
+<MinecraftRecipe
+  pattern={["  X", " X ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/easium_ingot', label: 'Easium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/easium_rod', label: 'Easium Rod' }}
+  textures={textures}
+/>

@@ -1,0 +1,112 @@
+---
+title: Telos Set
+sidebar_label: Telos Set
+sidebar_position: 4
+---
+
+import MinecraftRecipe from '@site/src/components/MinecraftRecipe';
+
+export const textures = {
+  anotherqualityoreset: 'https://raw.githubusercontent.com/Nyfaria/AnotherQualityOreSet/refs/heads/1.20.x/Common/src/main/resources/assets/anotherqualityoreset/textures',
+};
+
+<div style={{overflow: 'hidden', marginBottom: '20px'}}>
+  <img src="https://raw.githubusercontent.com/Nyfaria/AnotherQualityOreSet/refs/heads/1.20.x/wiki/telos_set.png" alt="Telos Set" style={{float: 'right', maxWidth: '33%', borderRadius: '8px', marginLeft: '20px', marginBottom: '10px'}} />
+
+  <h2 style={{marginTop: 0}}>Overview</h2>
+
+  The **Telos Set** is the ultimate tier in Another Quality Ore Set. Unlike other ore sets, Telos cannot be mined from the world. Instead, it must be **crafted from the other three ore sets**, requiring mastery of all dimensions and materials.
+
+  Telos represents the pinnacle of crafting achievement, combining the power of Easium, Medium, and Hardium into gear that transcends them all.
+</div>
+
+## Set Bonuses: Ultimate Power
+
+:::tip Set Bonuses
+The **full Telos armor set** provides the most powerful bonuses in the mod:
+- **Indestructible**: Telos gear never breaks! It has infinite durability, making it truly eternal.
+- **Fire Resistance**: Complete immunity to fire and lava damage
+- **Elytra Flight**: The ability to fly as if wearing an Elytra, without needing one!
+:::
+
+Telos gear is the ultimate reward for dedicated players who have conquered all three dimensions and mastered the crafting of each ore tier.
+
+## Crafting Telos
+
+To craft Telos gear, you must first create Telos Scrap. This requires rods from all three ore sets and a Dragon Breath, symbolizing the ultimate combination of all the mod's materials.
+
+### Telos Scrap
+
+This is the key ingredient for all Telos gear. It requires rods from Easium, Medium, and Hardium, plus a Dragon Breath as the catalyst.
+
+<MinecraftRecipe
+  pattern={["MEH", "EDE", "HEM"]}
+  keyMap={{
+    M: { item: 'anotherqualityoreset:item/medium_rod', label: 'Medium Rod' },
+    E: { item: 'anotherqualityoreset:item/easium_rod', label: 'Easium Rod' },
+    H: { item: 'anotherqualityoreset:item/hardium_rod', label: 'Hardium Rod' },
+    D: { item: 'minecraft:item/dragon_breath', label: 'Dragon Breath' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/telos_scrap', label: 'Telos Scrap' }}
+  textures={textures}
+/>
+
+## Armor Recipes
+
+### Telos Helmet
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/telos_scrap', label: 'Telos Scrap' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/telos_helmet', label: 'Telos Helmet' }}
+  textures={textures}
+/>
+
+### Telos Chestplate
+
+<MinecraftRecipe
+  pattern={["X X", "XXX", "XXX"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/telos_scrap', label: 'Telos Scrap' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/telos_chestplate', label: 'Telos Chestplate' }}
+  textures={textures}
+/>
+
+### Telos Leggings
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "X X"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/telos_scrap', label: 'Telos Scrap' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/telos_leggings', label: 'Telos Leggings' }}
+  textures={textures}
+/>
+
+### Telos Boots
+
+<MinecraftRecipe
+  pattern={["X X", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/telos_scrap', label: 'Telos Scrap' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/telos_boots', label: 'Telos Boots' }}
+  textures={textures}
+/>
+
+## Tool Recipes
+
+### Telos Sword
+
+<MinecraftRecipe
+  pattern={["X  ", "X  ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/telos_scrap', label: 'Telos Scrap' },
+    '#': { item: 'anotherqualityoreset:item/hardium_rod', label: 'Hardium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/telos_sword', label: 'Telos Sword' }}
+  textures={textures}
+/>

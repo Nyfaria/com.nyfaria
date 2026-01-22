@@ -34,21 +34,6 @@
         { "type": "doc", "id": "nyfsquiver/intro", "label": "Introduction" },
         { "type": "doc", "id": "nyfsquiver/recipes", "label": "Recipes" }
       ]
-    },
-    {
-      "type": "category",
-      "label": "Another Quality Ore Set",
-      "collapsible": true,
-      "collapsed": true,
-      "items": [
-        {
-          "type": "doc",
-          "id": "anotherqualityoreset/intro",
-          "label": "Introduction"
-        },
-        "anotherqualityoreset/usage",
-        "anotherqualityoreset/recipes"
-      ]
     }
   ]
 }

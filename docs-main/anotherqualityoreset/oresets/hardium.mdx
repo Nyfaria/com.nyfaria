@@ -1,0 +1,213 @@
+---
+title: Hardium Ore Set
+sidebar_label: Hardium Ore Set
+sidebar_position: 3
+---
+
+import MinecraftRecipe from '@site/src/components/MinecraftRecipe';
+
+export const textures = {
+  anotherqualityoreset: 'https://raw.githubusercontent.com/Nyfaria/AnotherQualityOreSet/refs/heads/1.20.x/Common/src/main/resources/assets/anotherqualityoreset/textures',
+};
+
+<div style={{overflow: 'hidden', marginBottom: '20px'}}>
+  <img src="https://raw.githubusercontent.com/Nyfaria/AnotherQualityOreSet/refs/heads/1.20.x/wiki/hardium_set.png" alt="Hardium Set" style={{float: 'right', maxWidth: '33%', borderRadius: '8px', marginLeft: '20px', marginBottom: '10px'}} />
+
+  <h2 style={{marginTop: 0}}>Overview</h2>
+
+  The **Hardium Set** is the third tier ore set in Another Quality Ore Set. Found exclusively in **The End**, Hardium ore generates on the outer End islands, requiring players to defeat the Ender Dragon and explore beyond the main island.
+
+  Hardium gear represents a significant power increase, offering exceptional durability and effectiveness. This set is designed for end-game players who have conquered The End and seek the ultimate tools and armor.
+</div>
+
+## Set Bonus: Fire Resistance + Elytra Flight
+
+:::tip Set Bonus
+When wearing the **full Hardium armor set**, you gain two powerful bonuses:
+- **Fire Resistance**: Complete immunity to fire and lava damage
+- **Elytra Flight**: The ability to fly as if wearing an Elytra, without needing one!
+:::
+
+This makes the Hardium set incredibly versatile, combining protection, fire immunity, and flight into one powerful armor set.
+
+## Obtaining Hardium
+
+Hardium ore can be found on the outer End islands, accessible via End Gateways after defeating the Ender Dragon. Mine the ore with a Medium pickaxe or better, then smelt the raw hardium in a furnace to obtain Hardium Ingots.
+
+### Hardium Ingot (Smelting)
+
+<MinecraftRecipe
+  type="FURNACE"
+  input={{ item: 'anotherqualityoreset:item/raw_hardium', label: 'Raw Hardium' }}
+  result={{ item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' }}
+  textures={textures}
+/>
+
+## Armor Recipes
+
+### Hardium Helmet
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_helmet', label: 'Hardium Helmet' }}
+  textures={textures}
+/>
+
+### Hardium Chestplate
+
+<MinecraftRecipe
+  pattern={["X X", "XXX", "XXX"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_chestplate', label: 'Hardium Chestplate' }}
+  textures={textures}
+/>
+
+### Hardium Leggings
+
+<MinecraftRecipe
+  pattern={["XXX", "X X", "X X"]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_leggings', label: 'Hardium Leggings' }}
+  textures={textures}
+/>
+
+### Hardium Boots
+
+<MinecraftRecipe
+  pattern={["X X", "X X", "   "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_boots', label: 'Hardium Boots' }}
+  textures={textures}
+/>
+
+## Tool Recipes
+
+### Hardium Sword
+
+<MinecraftRecipe
+  pattern={["X  ", "X  ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/hardium_rod', label: 'Hardium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_sword', label: 'Hardium Sword' }}
+  textures={textures}
+/>
+
+### Hardium Pickaxe
+
+<MinecraftRecipe
+  pattern={["XXX", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/hardium_rod', label: 'Hardium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_pickaxe', label: 'Hardium Pickaxe' }}
+  textures={textures}
+/>
+
+### Hardium Axe
+
+<MinecraftRecipe
+  pattern={["XX ", "X# ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/hardium_rod', label: 'Hardium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_axe', label: 'Hardium Axe' }}
+  textures={textures}
+/>
+
+### Hardium Shovel
+
+<MinecraftRecipe
+  pattern={["X  ", "#  ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/hardium_rod', label: 'Hardium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_shovel', label: 'Hardium Shovel' }}
+  textures={textures}
+/>
+
+### Hardium Hoe
+
+<MinecraftRecipe
+  pattern={["XX ", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' },
+    '#': { item: 'anotherqualityoreset:item/hardium_rod', label: 'Hardium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_hoe', label: 'Hardium Hoe' }}
+  textures={textures}
+/>
+
+## Special Tools
+
+### Hardium Hammer
+
+The Hardium Hammer is a powerful mining tool that mines a 3x3 area of blocks at once.
+
+<MinecraftRecipe
+  pattern={["XXX", " # ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:block/hardium_block', label: 'Hardium Block' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_hammer', label: 'Hardium Hammer' }}
+  textures={textures}
+/>
+
+### Hardium Paxel
+
+The Paxel combines the functionality of a pickaxe, axe, and shovel into one convenient tool.
+
+<MinecraftRecipe
+  pattern={["PAS", " # ", " # "]}
+  keyMap={{
+    P: { item: 'anotherqualityoreset:item/hardium_pickaxe', label: 'Hardium Pickaxe' },
+    A: { item: 'anotherqualityoreset:item/hardium_axe', label: 'Hardium Axe' },
+    S: { item: 'anotherqualityoreset:item/hardium_shovel', label: 'Hardium Shovel' },
+    '#': { item: 'anotherqualityoreset:item/hardium_rod', label: 'Hardium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_paxel', label: 'Hardium Paxel' }}
+  textures={textures}
+/>
+
+### Hardium Tree Axe
+
+The Tree Axe allows you to chop down entire trees by breaking just one log block.
+
+<MinecraftRecipe
+  pattern={["XB ", "X# ", " # "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' },
+    B: { item: 'anotherqualityoreset:block/hardium_block', label: 'Hardium Block' },
+    '#': { item: 'anotherqualityoreset:item/hardium_rod', label: 'Hardium Rod' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_tree_axe', label: 'Hardium Tree Axe' }}
+  textures={textures}
+/>
+
+### Hardium Rod
+
+The Hardium Rod is a crafting component used in creating the ultimate Telos gear.
+
+<MinecraftRecipe
+  pattern={["  X", " X ", "#  "]}
+  keyMap={{
+    X: { item: 'anotherqualityoreset:item/hardium_ingot', label: 'Hardium Ingot' },
+    '#': { item: 'minecraft:item/stick', label: 'Stick' }
+  }}
+  result={{ item: 'anotherqualityoreset:item/hardium_rod', label: 'Hardium Rod' }}
+  textures={textures}
+/>
