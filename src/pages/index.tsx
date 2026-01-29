@@ -36,7 +36,7 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Nyfaria`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       {/* HomepageFeatures removed so the three default feature cards do not show */}

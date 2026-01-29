@@ -10,12 +10,11 @@
       "label": "FancyFrames",
       "collapsible": true,
       "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "fancyframes/intro"
+      },
       "items": [
-        {
-          "type": "doc",
-          "id": "fancyframes/intro",
-          "label": "Introduction"
-        },
         "fancyframes/installation",
         "fancyframes/usage",
         {
@@ -30,9 +29,36 @@
       "label": "Nyf's Quivers",
       "collapsible": true,
       "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "nyfsquiver/intro"
+      },
       "items": [
-        { "type": "doc", "id": "nyfsquiver/intro", "label": "Introduction" },
         { "type": "doc", "id": "nyfsquiver/recipes", "label": "Recipes" }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Another Quality Ore Set",
+      "collapsible": true,
+      "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "anotherqualityoreset/intro"
+      },
+      "items": [
+        "anotherqualityoreset/usage",
+        {
+          "type": "category",
+          "label": "Ore Sets",
+          "collapsed": true,
+          "items": [
+            "anotherqualityoreset/oresets/easium",
+            "anotherqualityoreset/oresets/medium",
+            "anotherqualityoreset/oresets/hardium",
+            "anotherqualityoreset/oresets/telos"
+          ]
+        }
       ]
     }
   ]

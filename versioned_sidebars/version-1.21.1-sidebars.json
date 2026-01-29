@@ -6,12 +6,11 @@
       "label": "AdvancedWallClimberAPI",
       "collapsible": true,
       "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "advancedwallclimberapi/intro"
+      },
       "items": [
-        {
-          "type": "doc",
-          "id": "advancedwallclimberapi/intro",
-          "label": "Introduction"
-        },
         "advancedwallclimberapi/installation",
         "advancedwallclimberapi/usage",
         "advancedwallclimberapi/api-reference"
@@ -22,12 +21,11 @@
       "label": "FancyFrames",
       "collapsible": true,
       "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "fancyframes/intro"
+      },
       "items": [
-        {
-          "type": "doc",
-          "id": "fancyframes/intro",
-          "label": "Introduction"
-        },
         "fancyframes/installation",
         "fancyframes/usage",
         {
@@ -42,8 +40,11 @@
       "label": "Nyf's Quivers",
       "collapsible": true,
       "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "nyfsquiver/intro"
+      },
       "items": [
-        { "type": "doc", "id": "nyfsquiver/intro", "label": "Introduction" },
         { "type": "doc", "id": "nyfsquiver/recipes", "label": "Recipes" }
       ]
     }

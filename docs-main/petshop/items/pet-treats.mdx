@@ -1,0 +1,44 @@
+---
+title: Pet Treats
+sidebar_label: Pet Treats
+sidebar_position: 4
+---
+
+import ItemCycler from '@site/src/components/ItemCycler';
+
+export const textures = {
+  petshop: 'https://raw.githubusercontent.com/Nyfaria/NyfsPetShop/refs/heads/1.20.x/common/src/main/resources/assets/petshop/textures',
+};
+
+<div style={{overflow: 'hidden', marginBottom: '20px'}}>
+  <div style={{float: 'right', marginLeft: '20px', marginBottom: '10px'}}>
+    <ItemCycler
+      items={[
+        { item: 'petshop:item/dog_treat', label: 'Dog Treat' },
+        { item: 'petshop:item/tuna_treat', label: 'Tuna Treat' },
+        { item: 'petshop:item/peanut', label: 'Peanut' },
+        { item: 'petshop:item/chicken_drumstick', label: 'Chicken Drumstick' },
+        { item: 'petshop:item/pancakes', label: 'Pancakes' },
+      ]}
+      width={256}
+      height={256}
+      interval={1500}
+      textures={textures}
+    />
+  </div>
+
+**Pet Treats** are special food items that attract your pets and make them display cute animations when held!
+
+## Available Treats
+
+- **Dog Treat** - A tasty bone-shaped treat for dogs
+- **Tuna Treat** - A fishy snack that cats love
+- **Peanut** - A crunchy treat for birds
+- **Chicken Drumstick** - A meaty treat for dragons
+- **Pancakes** - A sweet treat that Derpy Ghosts adore
+
+## Obtaining
+
+Pet Treats can be purchased from the **Pet Groomer** villager.
+
+</div>

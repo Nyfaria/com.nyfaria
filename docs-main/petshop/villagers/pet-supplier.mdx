@@ -1,0 +1,41 @@
+---
+title: Pet Supplier
+sidebar_label: Pet Supplier
+sidebar_position: 1
+---
+
+import MinecraftRecipe from '@site/src/components/MinecraftRecipe';
+
+export const textures = {
+  petshop: 'https://raw.githubusercontent.com/Nyfaria/NyfsPetShop/refs/heads/1.20.x/common/src/main/resources/assets/petshop/textures',
+};
+
+<div style={{overflow: 'hidden', marginBottom: '20px'}}>
+  <img src="https://raw.githubusercontent.com/Nyfaria/NyfsPetShop/refs/heads/1.20.x/wiki/pet_supplier.png" alt="Pet Supplier Villager" style={{float: 'right', maxWidth: '33%', borderRadius: '8px', marginLeft: '20px', marginBottom: '10px'}} />
+
+How do you get your pets? Through the new **Pet Supplier** villager! Found randomly in regular villages, you can trade some emeralds for special **pet items**.
+
+These pet items "contain" your pet. Here's what you can do with them:
+
+- **Summon your pet** - Right-click the ground to summon your pet from the item
+- **Re-summon after death** - If your pet dies, you can simply re-summon it using your pet item
+- **Call your pet** - If your pet wanders too far, hold your pet item in hand and they will follow you
+- **Recall your pet** - If you have lost sight of where your pet is, right-click the ground with the pet item (putting the pet back in the item) and right-click again to summon it right next to you
+
+## Crate Recipe
+
+The Pet Supplier uses a Crate as their workstation.
+
+<MinecraftRecipe
+  pattern={["PWP", "PIP", "PPP"]}
+  keyMap={{
+    P: { item: 'minecraft:block/oak_planks', label: 'Oak Planks' },
+    W: { item: 'minecraft:block/white_wool', label: 'White Wool' },
+    I: { item: 'minecraft:block/iron_bars', label: 'Iron Bars' }
+  }}
+  result={{ item: 'petshop:block/crate', label: 'Crate' }}
+  textures={textures}
+/>
+
+</div>
+

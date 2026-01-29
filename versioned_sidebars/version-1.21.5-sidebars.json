@@ -10,12 +10,11 @@
       "label": "AdvancedWallClimberAPI",
       "collapsible": true,
       "collapsed": true,
+      "link": {
+        "type": "doc",
+        "id": "advancedwallclimberapi/intro"
+      },
       "items": [
-        {
-          "type": "doc",
-          "id": "advancedwallclimberapi/intro",
-          "label": "Introduction"
-        },
         "advancedwallclimberapi/installation",
         "advancedwallclimberapi/usage",
         "advancedwallclimberapi/api-reference"

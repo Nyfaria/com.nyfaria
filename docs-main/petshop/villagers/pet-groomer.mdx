@@ -1,0 +1,58 @@
+---
+title: Pet Groomer
+sidebar_label: Pet Groomer
+sidebar_position: 2
+---
+
+import MinecraftRecipe from '@site/src/components/MinecraftRecipe';
+
+export const textures = {
+  petshop: 'https://raw.githubusercontent.com/Nyfaria/NyfsPetShop/refs/heads/1.20.x/common/src/main/resources/assets/petshop/textures',
+};
+
+<div style={{overflow: 'hidden', marginBottom: '20px'}}>
+  <img src="https://raw.githubusercontent.com/Nyfaria/NyfsPetShop/refs/heads/1.20.x/wiki/pet_groomer.png" alt="Pet Groomer Villager" style={{float: 'right', maxWidth: '33%', borderRadius: '8px', marginLeft: '20px', marginBottom: '10px'}} />
+
+The **Pet Groomer** villager is responsible for selling many items in the mod, including:
+
+- Kibble
+- Playing items (tennis ball, yarn ball, etc.)
+- Pet bowls
+- Pet beds
+- Leashes (all dye colors)
+- Pet Doors (all plank and concrete types)
+
+## Grooming Station Recipe
+
+The Pet Groomer uses a Grooming Station as their workstation.
+
+<MinecraftRecipe
+  pattern={["PWP", "PSP", "PPP"]}
+  keyMap={{
+    P: { item: 'minecraft:block/oak_planks', label: 'Oak Planks' },
+    W: { item: 'minecraft:block/white_wool', label: 'White Wool' },
+    S: { item: 'minecraft:item/shears', label: 'Shears' }
+  }}
+  result={{ item: 'petshop:block/grooming_station', label: 'Grooming Station' }}
+  textures={textures}
+/>
+
+</div>
+
+## Using the Grooming Station
+
+You have your pet, which is great; how can you upgrade it even further? How about… giving your pets cosmetics?
+
+With the new **Grooming Station** block, you can decorate your pet with some cool cosmetics!
+
+### How to Use
+
+1. Put your pet item (making sure it contains your pet) in the top left slot
+2. Put your wool (the cost) in the bottom right slot
+3. Click one of the options that displays on the left:
+   - **Boots**
+   - **Collars**
+   - **Hats**
+4. Take the new pet item that displays on the right
+
+![Grooming Station](https://media.forgecdn.net/attachments/785/497/grooming_station.png)

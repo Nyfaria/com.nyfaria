@@ -1,0 +1,38 @@
+---
+title: Balls
+sidebar_label: Balls
+sidebar_position: 3
+---
+
+import ItemCycler from '@site/src/components/ItemCycler';
+
+export const textures = {
+  petshop: 'https://raw.githubusercontent.com/Nyfaria/NyfsPetShop/refs/heads/1.20.x/common/src/main/resources/assets/petshop/textures',
+};
+
+<div style={{overflow: 'hidden', marginBottom: '20px'}}>
+  <div style={{float: 'right', marginLeft: '20px', marginBottom: '10px'}}>
+    <ItemCycler
+      items={[
+        { item: 'petshop:item/tennis_ball', label: 'Tennis Ball' },
+        { item: 'petshop:item/yarn_ball', label: 'Yarn Ball' },
+      ]}
+      width={128}
+      height={128}
+      interval={1500}
+      textures={textures}
+    />
+  </div>
+
+**Balls** are play items that your pets can interact with! Throw them and watch your pets chase after them.
+
+## Available Balls
+
+- **Tennis Ball** - A classic ball that dogs will fetch and bring back to you
+- **Yarn Ball** - A soft ball that dogs will fetch and cats will bat around and play with
+
+## Obtaining
+
+Balls can be purchased from the **Pet Groomer** villager.
+
+</div>

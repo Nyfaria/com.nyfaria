@@ -1,0 +1,18 @@
+.itemCyclerContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.slotBackground {
+  image-rendering: pixelated;
+}
+
+.itemCyclerItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemCyclerImage {
+  image-rendering: pixelated;
+}
